@@ -1,0 +1,267 @@
+body{
+  background-color: rgb(233, 238, 240);
+  /* mask-image: url(image/logo512.png); */
+  
+    background-image: url(/src/image/bussignin.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30px;
+
+}
+
+.main{
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  padding:90px 0 90px 0 ;
+  opacity: 0.5px;
+
+}
+.main1{
+  /* text-align: center; */
+  /* justify-content: center; */
+  /* padding:90px 0 90px 0 ; */
+  background-color: rgb(199, 194, 194);
+  color: white;
+  height: 500px;
+  width:  1000px;
+  color: black;
+  margin-left: 250px;
+  border-radius: 45px;
+  /* display: inline-flex; */
+}
+.main2{
+  /* background-color: rgb(199, 194, 194);
+  color: white;
+  margin-top: 80px;
+  height: 600px;
+  color: black;
+  margin-left:30;
+  border-radius: 45px;
+  /* text-align: center; */
+  /* justify-content: center;
+  display: flex;  */
+  
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  padding:90px 0 90px 0 ;
+  opacity: 0.5px;
+  border-radius: 45px;
+  background-color: rgb(199, 194, 194);
+  /* display: flex; */
+  justify-content: center;
+  height: 400px;
+  width:  25%;
+  margin-left: 30%;
+  margin-right: 50%;
+  margin-top: 50px;
+  
+}
+
+.main3{
+  background-color: rgb(199, 194, 194);
+  color: white;
+  height: 700px;
+  padding: 5px;
+  width:  800px;
+  color: black;
+  margin-left: 600px;
+  border-radius: 45px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+
+  
+}
+.main1 input,select, p{
+margin-left: 20px;
+}
+/* .main2 input,select, p{
+margin-left: 10px;
+} */
+.main1 button{
+margin-left: 20px;
+align-items: center;
+border-radius: 45px;
+}
+
+.sub-main{
+  display: flex;
+  justify-content: center;
+  height: 600px;
+  width:  35%;
+  box-shadow: 11px 12px 13px 12px rgb (207, 207, 207);
+  padding-top: 30px;
+  border-radius: 60px;
+  background-color: rgb(218, 230, 226);
+}
+
+.sub-main2{
+  display: flex;
+  justify-content: center;
+  /* height: 550px; */
+  /* width:  35%; */
+  box-shadow: 11px 12px 13px 12px rgb (207, 207, 207);
+  padding-top: 30px;
+  border-radius: 60px;
+}
+
+.imgs{
+  padding-top: 20px;
+  justify-content: center;
+  display: flex;
+  border-radius: 65px;
+  align-items: center;
+}
+.imgs2{
+  padding-top: 20px;
+  justify-content: center;
+  display: flex;
+  border-radius: 65px;
+}
+
+.container-image img{
+ border-radius: 80px;
+ width: 100%;
+ height: 100%;
+ align-items: center;
+ display: inline-flex;
+ /* margin-left: 220px; */
+}
+
+.container-image{
+  border-radius: 150px;
+  align-items:  center;
+  display: flex;
+  align-items: center;
+  height: 135px;
+  width:135px;
+}
+.container-image2 {
+  border-radius: 150px;
+  align-items:  center;
+  display: flex;
+  height: 100px;
+  width:px;
+}
+
+
+input{
+  width: 300px ;
+  height: 50px;
+  border-radius: 60px;
+  box-shadow:  inset 0px 0px 25px 0px #888;
+}
+
+.login{
+  align-items: center;
+  /* margin-top: 30%; */
+  margin-right: auto;
+  
+}
+.login h1{
+  border-radius: 50px;
+  
+}
+
+.login2 h1{
+  border-radius: 50px;
+  
+}
+
+.login button{
+ border-radius: 25px;
+  
+}
+
+.login button:hover{
+transition:cubic-bezier(0.175, 0.885, 0.32, 1.275);   
+transition: ease-in-out;
+ }
+
+ .but{
+  size: 50px;
+ }
+
+
+ .select{
+  height: 10px;
+  
+ }
+
+ select{
+  width: 300px ;
+  height: 50px;
+  border-radius: 60px;
+  box-shadow:  inset 0px 0px 25px 0px #888;
+ }
+
+ .supamain{
+ width: 100%;
+ }
+
+ .flexdiv{
+  display: inline-flex;
+ }
+
+ .flexdiv1 .div{
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+ }
+
+ .link{
+  font-size: large;
+  font-weight: 400px;
+  color: blue;
+  text-align: center;
+
+ }
+
+ 
+img{
+  width: 50%;
+  height: 50%;
+}
+
+
+.withgoogle{
+  background-color: dodgerblue;
+  height: 30px;
+  border-radius: 45px;
+  text-decoration-color: black;
+}
+
+.createBut{
+  align-self: center;
+  align-content: center;
+  align-items: center;
+  border-radius: 10px;
+  
+}
+
+.topnav{
+  /* align-items: center;
+  text-align: center;
+  align-self: center;
+  align-content: center;
+  align-items: center;
+  border-radius: 10px; */
+  text-align: center;
+  justify-content: center;
+  display: inline-flex;
+  /* padding:90px 0 90px 0 ; */
+  /* opacity: 0.5px; */
+
+}
+
+/* .nav{
+  text-align: center;
+  justify-content: center;
+  display: inline-flex; 
+  float:right;
+  opacity: 0.5px;
+
+} */
