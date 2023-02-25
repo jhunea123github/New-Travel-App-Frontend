@@ -1,6 +1,5 @@
 import React from "react";
 import "../css/VipInfo.css";
-import FamilyCard from "./FamilyCard";
 
 function VipInfo() {
   return (
@@ -8,7 +7,7 @@ function VipInfo() {
       <h1>VIP BUSES DETAILS</h1>
       <div>
         <div className="picalign">
-          <div>
+          <div className="vipimage">
             <img
               src="https://thumbs.dreamstime.com/b/tour-bus-21182249.jpg"
               alt=""
@@ -23,7 +22,7 @@ function VipInfo() {
                   <br />
                   2. USB Charge Port
                   <br />
-                  3. WashRoom
+                  3. Inbuilt WashRoom
                   <br />
                   4. Screen Per-Seat
                   <br />

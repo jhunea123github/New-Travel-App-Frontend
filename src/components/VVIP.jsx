@@ -1,11 +1,13 @@
 import React from "react";
+import "../css/vip.css";
+
 
 function VVIP() {
   return (
     <div>
       <h1>VIP BUSES DETAILS</h1>
       <div>
-        <div>
+        <div className="vip">
           <img
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9lKXYeotKWzrlgjfQwJq3Zp6q-iXT97OqS96L__lMqBe0ixy6KQrkRH39nKOA1s9qZJI&usqp=CAU"
             alt=""
@@ -20,10 +22,11 @@ function VVIP() {
          <br/>
          2. USB Charge Port
          <br/>
-         3. WashRoom
+         3. Inbuilt WashRoom
          <br/>
          4. Screen Per-Seat
          <br/>
+         5. Onboard Snacks
          <br/>
 
 

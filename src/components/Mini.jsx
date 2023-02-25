@@ -1,11 +1,13 @@
 import React from "react";
+import "../css/mini.css";
+
 
 function Mini() {
   return (
     <div>
       <h1>MINI COASTAL BUSES</h1>
       <div>
-        <div>
+        <div className="miniimg">
           <img
             src="https://www.pngfind.com/pngs/m/270-2706197_toyota-coaster-bus-png-transparent-png.png"
             alt=""
@@ -19,7 +21,7 @@ function Mini() {
               <br />
               2. USB Charge Port
               <br />
-              3. WashRoom
+              3. Inbuilt WashRoom
               <br />
               4. Screen Per-Seat
               <br />

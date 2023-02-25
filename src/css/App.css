@@ -2,11 +2,7 @@ body{
   background-color: rgb(233, 238, 240);
   /* mask-image: url(image/logo512.png); */
   
-    background-image: url(/src/image/bussignin.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 30px;
+   
 
 }
 

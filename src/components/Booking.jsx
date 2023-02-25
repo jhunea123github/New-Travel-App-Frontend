@@ -114,7 +114,7 @@ function Booking() {
           <br/>
           <br/>
           <label>
-            Date For Travel:
+            Select Travel Date:
             <input
               type="date"
               name="travelDate"
@@ -126,7 +126,7 @@ function Booking() {
           </label>
           <br/>
           <label>
-            Pickup Location:
+            Select Pickup Loc:
             <input
               type="text"
               name="pickupLocation"
@@ -138,7 +138,7 @@ function Booking() {
           </label>
           <br />
           <label>
-            Phone Number:
+            Phone Number (s)  :
             <input
               type="text"
               name="phoneNumber"
@@ -150,7 +150,7 @@ function Booking() {
           </label>
           <br />
           <label>
-            Destination:
+            Set Destination:
             <select name="destination" value={passenger.destination} onChange={handleChange}>
                 <option value="">Select a destination</option>
                 <option value="Koforidua">Koforidua</option>
@@ -163,7 +163,7 @@ function Booking() {
             <br/>
             <br/>
           <label>
-                Bus Type:
+               Select Bus Type:
                 <select name="busType" value={passenger.busType} onChange={handleChange}>
                     <option value="">Select a bus type</option>
                     <option value="VIP">VIP</option>
