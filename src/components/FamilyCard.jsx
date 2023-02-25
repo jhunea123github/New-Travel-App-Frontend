@@ -30,6 +30,8 @@ function FamilyCard() {
        <Link to = '/MiniBus'> Show Details</Link>
     </div>
 
+   
+
     </div>
     {/* </div> */}
     
