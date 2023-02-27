@@ -6,13 +6,14 @@ import FamilyCard from './FamilyCard';
 
 
 
+
 function Index() {
   return (
   <div>
   
     
   <h1 className='heady'>TRAVEL APP</h1>
-  
+ 
   <br/>
   <div className="center">
                

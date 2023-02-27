@@ -15,7 +15,9 @@ function LoginForm() {
           </div>
         </div>
         <div className="login">
+          
           <h1>Travel-Login </h1>
+          
           <div>
             {/* <img src="" alt="" /> */}
             <input type="text" placeholder="User Name " className="name" />
